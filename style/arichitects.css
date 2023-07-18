@@ -1,0 +1,97 @@
+/* Work sans front from google font */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800&display=swap");
+/* Work sans front from google font */
+
+/* Common style */
+
+* {
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.btn-primary {
+  border-radius: 8px;
+  background-color: #ff900e;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border: none;
+  padding: 20px 25px;
+  cursor: pointer;
+}
+/* Common style */
+
+/* header section started */
+.header {
+  background-color: #ff900e1a;
+  padding: 50px 240px;
+}
+/* navbar section */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.nav-title {
+  color: #131313;
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+.navbar > ul {
+  display: flex;
+}
+
+.navbar li {
+  list-style: none;
+  margin-right: 30px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #424242;
+}
+
+/* banner section style */
+.banner-content {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.banner-title {
+  color: #131313;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.banner-description {
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+
+.banner img {
+  margin-top: 70px;
+  width: 100%;
+}
+
+/* header section end */
+
+/* responsive style */
+@media screen and (max-width: 576px) {
+  .header {
+    padding: 20px;
+  }
+}
